@@ -49,7 +49,7 @@ function __cmd_coron()
     esac
 }
 
-complete -F __cmd_coron flyme
+autojump __cmd_coron flyme
 
 function ifdir()
 {
